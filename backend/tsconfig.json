@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": false,
+    "alwaysStrict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "rootDir": "./",
+    "skipLibCheck": true,
+    "moduleResolution": "node"
+  },
+  "include": ["**/*.ts", "**/*.js", "**/**/*.json"],
+  "exclude": ["node_modules", "dist", "tests"],
+  "ts-node": {
+    "esm": true,
+    "compiler": "typescript"
+  }
+}
